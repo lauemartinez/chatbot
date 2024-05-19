@@ -5,7 +5,9 @@
 import { bootstrapApplication,provideProtractorTestingSupport } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
 import { provideMarkdown } from 'ngx-markdown';
+import { provideHttpClient } from '@angular/common/http';
 
-bootstrapApplication(AppComponent,
-    {providers: [provideProtractorTestingSupport(), provideMarkdown()]})
+bootstrapApplication(AppComponent, {
+    providers: [provideProtractorTestingSupport(), provideMarkdown(), provideHttpClient()]
+  })
   .catch(err => console.error(err));

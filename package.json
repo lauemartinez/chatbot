@@ -1,6 +1,6 @@
 {
-  "name": "angular.io-example",
-  "version": "0.0.0",
+  "name": "chatbot-liibreria",
+  "version": "1.0.0",
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
   "scripts": {
@@ -29,7 +29,11 @@
     "prismjs": "^1.28.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.0"
+    "zone.js": "~0.14.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "17.2.3",

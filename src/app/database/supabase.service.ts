@@ -3,7 +3,7 @@ import { createClient, SupabaseClient, User} from '@supabase/supabase-js';
 import { environment } from '../../environments/environment';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
 
 export class SupabaseService {
