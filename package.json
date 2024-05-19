@@ -22,7 +22,11 @@
     "@angular/platform-browser-dynamic": "17.2.4",
     "@angular/router": "17.2.4",
     "@google/generative-ai": "^0.9.0",
+    "@supabase/supabase-js": "^2.43.2",
     "angular-in-memory-web-api": "~0.17.0",
+    "marked": "^12.0.0",
+    "ngx-markdown": "^17.2.1",
+    "prismjs": "^1.28.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.0"
@@ -45,5 +49,8 @@
     "protractor": "~7.0.0",
     "ts-node": "~10.9.0",
     "typescript": "~5.2.0"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": ""
 }

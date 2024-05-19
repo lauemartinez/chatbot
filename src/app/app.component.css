@@ -136,6 +136,12 @@ a.add img {
     isolation: isolate;
 }
 
+.chat-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+
 .chat-list h3 {
     color: #222;
     font-size: 16px;
@@ -145,7 +151,7 @@ a.add img {
     margin-bottom: 0;
 }
 
-.chat-list p {
+.chat-list markdown {
     color: #343434;
     font-size: 14px;
     font-weight: 400;
@@ -182,7 +188,7 @@ a.add img {
     margin-bottom: 0;
 }
 
-.msg-head p {
+.msg-head markdown {
     color: #343434;
     font-size: 14px;
     font-weight: 400;
@@ -254,7 +260,7 @@ a.add img {
     transform: rotate(-37deg);
 }
 
-.msg-body ul li.sender p {
+.msg-body ul li.sender markdown {
     color: #000;
     font-size: 14px;
     line-height: 1.5;
@@ -268,7 +274,7 @@ a.add img {
     margin-bottom: 0;
 }
 
-.msg-body ul li.sender p b {
+.msg-body ul li.sender markdown b {
     display: block;
     color: #180660;
     font-size: 14px;
@@ -300,7 +306,7 @@ a.add img {
     transform: rotate(37deg);
 }
 
-.msg-body ul li.receiver p {
+.msg-body ul li.receiver markdown {
     color: #fff;
     font-size: 14px;
     line-height: 1.5;
@@ -314,7 +320,7 @@ a.add img {
     margin-bottom: 0;
 }
 
-.msg-body ul li.receiver p b {
+.msg-body ul li.receiver markdown b {
     display: block;
     color: #061061;
     font-size: 14px;
@@ -565,7 +571,7 @@ button:focus {
     .msg-head h3 {
         font-size: 14px;
     }
-    .msg-head p {
+    .msg-head markdown {
         font-size: 12px;
     }
     .msg-head .flex-shrink-0 img {
@@ -580,17 +586,17 @@ button:focus {
     .chat-list h3 {
         font-size: 14px;
     }
-    .chat-list p {
+    .chat-list markdown {
         font-size: 12px;
     }
-    .msg-body ul li.sender p {
+    .msg-body ul li.sender markdown {
         font-size: 13px;
         padding: 8px;
         border-bottom-left-radius: 6px;
         border-top-right-radius: 6px;
         border-bottom-right-radius: 6px;
     }
-    .msg-body ul li.receiver p {
+    .msg-body ul li.receiver markdown {
         font-size: 13px;
         padding: 8px;
         border-top-left-radius: 6px;

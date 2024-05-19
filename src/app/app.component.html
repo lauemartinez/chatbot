@@ -14,35 +14,36 @@
                                             <div class="d-flex align-items-center">
                                                 <span class="chat-icon"><img class="img-fluid" src="https://mehedihtml.com/chatbox/assets/img/arroleftt.svg" alt="image title"></span>
                                                 <div class="flex-shrink-0">
-                                                    <img class="img-fluid img-logo" src="https://imgur.com/0XC49UU.png" alt="user img">
+                                                    <img class="img-fluid img-logo" src="https://cdn-icons-png.freepik.com/512/10089/10089764.png" alt="user img">
                                                 </div>
                                                 <div class="flex-grow-1 ms-3">
-                                                    <h3>Mi Chatbot</h3>
-                                                    <p>Encendido y listo para el servicio</p>
+                                                    <h3>TomoBot el Chatbot de Libros</h3>
+                                                    <p>¡Listo para todas tus consultas!</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
-
-                                <div class="modal-body">
+                                <div class="modal-body chat-container">
                                     <div class="msg-body">
                                         
                                         <ul>
                                             <li>
                                                 <div class="divider">
-                                                    <h6>Hoy</h6>
+                                                    <h6>Hoy</h6><!-- Se Hardcodea hasta tener manejo de dias -->
                                                 </div>
                                             </li>
 
                                             <li *ngFor="let menssage of messages" class="{{menssage.author}}">
-                                                <p> {{menssage.content}} </p>
+                                                <markdown lineNumbers>
+                                                    {{menssage.content}}
+                                                </markdown>
                                                 <span class="time">{{menssage.hour}}</span>
                                             </li>
 
                                             <li [hidden]="!isLoadingResponse" class="sender">
-                                                <p> <i class="fa fa-spinner fa-spin fa-fw"></i> Generando Respuesta... </p>
+                                                <markdown> <i class="fa fa-spinner fa-spin fa-fw"></i> Generando Respuesta... </markdown>
                                             </li>
 
                                         </ul>
