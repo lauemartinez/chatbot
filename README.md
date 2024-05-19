@@ -13,6 +13,13 @@ Las tablas principales son:
 - **orders**: Almacena información sobre los pedidos realizados por los clientes.
 - **order_details**: Almacena información detallada sobre los productos incluidos en cada pedido.
 
+## Pre-Requisitos de Entorno
+
+```
+Node v20.12.2
+MySql V8.0.37
+```
+
 ## Instalacion
 
 Luego de clonar el proyecto vamos a correr el comando npm intsall para decargar las dependencias
