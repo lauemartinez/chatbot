@@ -63,4 +63,17 @@ export const environment = {
 };
 ```
 
+## Levantar Servidores
 
+Una vez que tengamos los dos servidores configurados tenemos que levantarlos en sus carpetas correspondientes
+
+Frontend
+```console
+ng serve
+```
+
+Backend
+```console
+cd .\backend\
+node app.js
+```
