@@ -43,4 +43,5 @@ Thumbs.db
 
 # My Ignores
 /src/environments/environment.ts
-package-lock.json
+/src/environments/environment.development.ts
+/backend/.env
