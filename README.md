@@ -6,6 +6,10 @@ Este es un chatbot diseñado para tomar propmpts con preguntas sobre libros o es
 
 ![WhatsApp Image 2024-05-19 at 03 42 47_1b5f7a84](https://github.com/lauemartinez/chatbot/assets/86857156/7a3dc75e-a778-4cc5-965c-25e8b6dbe1cc)
 
+## Video de Prueba
+
+![Untitled design](https://github.com/lauemartinez/chatbot/assets/86857156/7a09518d-7a2f-477d-82cc-0eb62ca98bc1)
+
 Las tablas principales son:
 
 - **books**: Almacena información sobre los libros disponibles en la librería.
